@@ -1,0 +1,164 @@
+body{
+    background-color: rgba(209, 224, 217, 0.531);
+    color: rgb(1, 33, 5);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+#container{
+    width: 1920px;
+    background-color: rgba(209, 224, 217, 0.531);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#wrapper{
+    width: 100%;
+    background-color: rgba(209, 224, 217, 0.531);
+    
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    background-color: rgba(14, 179, 204, 0.875);
+    box-shadow: 0 0 20px rgba(14, 179, 204, 0.875);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#header img{
+    width: 15%;
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 100%;
+    display: flex;
+}
+#header h1, h2{
+    font-size: 150%;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#nav{
+    display:inline-block;
+    width: 95%;
+    height: 35px;
+    background-color:rgba(14, 179, 204, 0.875);
+    box-shadow: 0 0 20px rgba(14, 179, 204, 0.875);
+    padding: 10px 30px;
+    position: sticky ;
+    top: 0;
+    
+}
+#nav a{
+    text-decoration: none;
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+    border: 2px rgba(28, 113, 199, 0.706) solid;
+    box-shadow: 0 0 10px black;
+    margin: 10px 20px 10px 20px;
+    padding: 0px 10px;
+}
+
+#nav a:hover{
+    background-color: rgba(28, 113, 199, 0.706);
+}
+#aboutme{
+    font-size: 300%;
+}
+#description{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/* this is for the family tree */
+#family_Tree {
+    display: inline-block;
+}
+
+#title h1 {
+    font-size: 250%;
+    margin: 0;
+    padding: 10px;
+}
+.family-section h3{
+    font-size: 200%;
+    margin: 0;
+    padding: 10px;
+    border: 2px rgba(28, 113, 199, 0.706) solid;
+    box-shadow: 0 0 10px black;
+}
+
+.family-section ul {
+    font-size: 120%;
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.family-section ul ul {
+    list-style-type:upper-roman;
+    padding-left: 20px;
+    font-size: 100%;
+}
+
+.family-section {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px rgba(28, 113, 199, 0.706) solid;
+    box-shadow: 0 0 10px black;
+    background-color: #c3f4ff;
+}
+
+/* this is for the schedule */
+
+#note h1 {
+    font-size: 150%;
+    color: #333;
+    text-align: center;
+}
+#note h3, h4{
+    color: #555;
+    font-size: 100%;
+    text-align: center;
+    font-style: italic;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 2px solid #07c9f5;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
